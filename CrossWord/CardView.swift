@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CardView: View {
     @State var character = "C"
+    @State var isSelected: Bool = false
     var body: some View {
         Text(character)
             .bold()
@@ -16,9 +17,12 @@ struct CardView: View {
             .padding()
             .foregroundColor(.white)
             .frame(width: 60, height: 60, alignment: .center)
-            .background(Color.orange)
+            .background(isSelected ? Color.blue : Color.orange)
             .cornerRadius(16.0, antialiased: true)
             .onTapGesture {
+                if isSelected {
+                    //Allowing character change
+                }
                 print(character)
             }
     }

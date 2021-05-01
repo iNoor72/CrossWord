@@ -10,7 +10,17 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         VStack {
-            CardView(character: "C")
+            //Instead of one view, we need a full deck of cards, so we will instantiate a CardGame for the given clues.
+            CardGame()
+                .padding()
+                .padding()
+            
+            
+            //Clues, Can be generated in a full game
+            Text("1. A name of pet.")
+                .bold()
+            Text("2. Something used for transportation.")
+                .bold()
         }
        
     }

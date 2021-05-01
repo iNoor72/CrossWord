@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7CADC633263DE404001FAD23 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CADC632263DE404001FAD23 /* CardView.swift */; };
+		7CADC638263DEA03001FAD23 /* CardGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CADC637263DEA03001FAD23 /* CardGame.swift */; };
 		7CB5AE652634A9960017C519 /* CrossWordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB5AE642634A9960017C519 /* CrossWordApp.swift */; };
 		7CB5AE672634A9960017C519 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB5AE662634A9960017C519 /* MainView.swift */; };
 		7CB5AE692634A9960017C519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB5AE682634A9960017C519 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		7CADC632263DE404001FAD23 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		7CADC637263DEA03001FAD23 /* CardGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGame.swift; sourceTree = "<group>"; };
 		7CB5AE612634A9960017C519 /* CrossWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB5AE642634A9960017C519 /* CrossWordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossWordApp.swift; sourceTree = "<group>"; };
 		7CB5AE662634A9960017C519 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				7CB5AE6D2634A9960017C519 /* Info.plist */,
 				7CB5AE6A2634A9960017C519 /* Preview Content */,
 				7CB5AE642634A9960017C519 /* CrossWordApp.swift */,
+				7CADC637263DEA03001FAD23 /* CardGame.swift */,
 			);
 			path = CrossWord;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CB5AE672634A9960017C519 /* MainView.swift in Sources */,
+				7CADC638263DEA03001FAD23 /* CardGame.swift in Sources */,
 				7CADC633263DE404001FAD23 /* CardView.swift in Sources */,
 				7CB5AE652634A9960017C519 /* CrossWordApp.swift in Sources */,
 			);
